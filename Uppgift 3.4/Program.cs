@@ -6,7 +6,7 @@ namespace Uppgift_3._4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hur lång är låten som du vill spela (skriv in det såhär \"3 30\" ");
+            Console.WriteLine("Hur lång är låten som du vill spela (skriv in det såhär \"3 30\")");
             string längd = Console.ReadLine();
             int mellanslagsindex = längd.IndexOf(" ");
             int minut = int.Parse(längd[..mellanslagsindex]);
